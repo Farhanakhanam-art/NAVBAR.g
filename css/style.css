@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+     background-image: url(../image/dark-theme-02.jpg);
+    /* background-size: cover;
+    background-repeat: no-repeat; */ 
+}
+.navbar{
+    background-color: rgb(46, 28, 1);
+    padding: 10px 100px;
+    height: 60px;
+}
+.nav_brand{
+    float: left;
+    padding: 2px;
+    
+}
+.nav_links{
+    float: right;
+}
+ul li{
+    display: inline-block;
+    padding-top: 20px;
+    list-style: none;
+    margin: 0 70px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-family: "Oswald", serif;
+    font-size: 40px;
+    
+}
